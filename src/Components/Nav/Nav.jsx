@@ -11,13 +11,13 @@ const Nav = () => {
     <>
       <nav className="nav_main">
         <ul>
-          <NavLink activeclassname="active" to="/dash" style={styles}>
+          <NavLink to="/dash" style={styles}>
             <li>Dashboard</li>
           </NavLink>
-          <NavLink activeclassname="active" to="/about" style={styles}>
+          <NavLink to="/about" style={styles}>
             <li>About</li>
           </NavLink>
-          <NavLink activeclassname="active" to="/contact" style={styles}>
+          <NavLink to="/contact" style={styles}>
             <li>Contact</li>
           </NavLink>
         </ul>
