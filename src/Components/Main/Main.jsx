@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import {
   useNavigate,
-  BrowserRouter,
+  Outlet,
   Routes,
   Route,
   useLocation,
@@ -73,11 +73,12 @@ const Main = () => {
           </div>
         </div>
         <div className="body">
-          <Routes>
+          {/* <Routes>
             <Route path="/dash" element={<DashBoard email={email} />} />
             <Route path="/about" element={<About />} />
             <Route path="contact" element={<Contact />} />
-          </Routes>
+          </Routes> */}
+          <Outlet />
         </div>
       </section>
     </>
