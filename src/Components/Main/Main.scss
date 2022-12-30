@@ -1,0 +1,44 @@
+.main_container {
+  height: 100vh;
+  position: relative;
+  .head {
+    background-color: rgb(55, 57, 132);
+    height: 3rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    .menu_btn {
+      z-index: 100;
+      background-color: transparent;
+      color: #fff;
+      margin-left: 0.5rem;
+      position: absolute;
+      top: 0.35rem;
+      left: 0rem;
+      border: none;
+      font-size: 1.4rem;
+    }
+    .p_wrapper {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 1.85rem;
+      height: 1.85rem;
+      background-color: #fff;
+      border-radius: 50vw;
+      margin-right: 0.75rem;
+      color: rgb(55, 57, 132);
+      font-weight: 600;
+      cursor: pointer;
+    }
+  }
+  .nav {
+    transition: all 100ms cubic-bezier(0.075, 0.82, 0.165, 1);
+  }
+  .body {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
